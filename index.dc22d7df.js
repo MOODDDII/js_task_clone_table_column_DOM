@@ -1,0 +1,2 @@
+var e=document.querySelector("table"),t=e.querySelector("thead th:nth-child(2)").cloneNode(!0),r=e.querySelector("tfoot th:nth-child(2)").cloneNode(!0),o=e.querySelectorAll("tbody tr");e.querySelector("thead tr").insertBefore(t,e.querySelector("thead th:last-child")),e.querySelector("tfoot tr").insertBefore(r,e.querySelector("tfoot th:last-child")),o.forEach(function(e){var t=e.querySelector("td:nth-child(2)").cloneNode(!0);e.insertBefore(t,e.querySelector("td:last-child"))});
+//# sourceMappingURL=index.dc22d7df.js.map
